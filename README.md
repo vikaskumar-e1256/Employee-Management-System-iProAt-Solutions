@@ -86,6 +86,10 @@ The Employee Management System allows you to manage employee records, including 
 
     Click the "Create Employee" button, fill out the form, and you can view the records in the list section.
 
+12. **Postman Api Collection**
+
+    You can find the Postman API collection and import it into your Postman, Now you can test APIs.
+
 ## Conclusion
 
 You have successfully set up the Employee Management System. Enjoy managing your employee records with ease!
