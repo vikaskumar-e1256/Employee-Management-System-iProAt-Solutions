@@ -88,7 +88,7 @@ The Employee Management System allows you to manage employee records, including 
 
 12. **Postman Api Collection**
 
-    You can find the Postman API collection and import it into your Postman, Now you can test APIs.
+    You can find the Postman API collection in the project root directory and import it into your Postman, Now you can test APIs.
 
 ## Conclusion
 
