@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "54d940da-cc2f-467c-b646-1ab0f57d6929",
+		"name": "iProAt-Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30799594"
+	},
+	"item": [
+		{
+			"name": "get-all-employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/employees",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-employee-based-query",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/ecmascript",
+						"uuid": "6f65e3ae-3a58-4cbc-8eea-6ff5531c3fe8"
+					}
+				],
+				"url": {
+					"raw": "{{server}}/employee?query=1234567890",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"employee"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "1234567890"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
